@@ -1,0 +1,13 @@
+C:\Programming\ICT\Week5\Snake\bin\Debug\netcoreapp3.1\SnakeWithTimer.exe
+C:\Programming\ICT\Week5\Snake\bin\Debug\netcoreapp3.1\SnakeWithTimer.deps.json
+C:\Programming\ICT\Week5\Snake\bin\Debug\netcoreapp3.1\SnakeWithTimer.runtimeconfig.json
+C:\Programming\ICT\Week5\Snake\bin\Debug\netcoreapp3.1\SnakeWithTimer.runtimeconfig.dev.json
+C:\Programming\ICT\Week5\Snake\bin\Debug\netcoreapp3.1\SnakeWithTimer.dll
+C:\Programming\ICT\Week5\Snake\bin\Debug\netcoreapp3.1\SnakeWithTimer.pdb
+C:\Programming\ICT\Week5\Snake\obj\Debug\netcoreapp3.1\SnakeWithTimer.AssemblyInfoInputs.cache
+C:\Programming\ICT\Week5\Snake\obj\Debug\netcoreapp3.1\SnakeWithTimer.AssemblyInfo.cs
+C:\Programming\ICT\Week5\Snake\obj\Debug\netcoreapp3.1\SnakeWithTimer.csproj.CoreCompileInputs.cache
+C:\Programming\ICT\Week5\Snake\obj\Debug\netcoreapp3.1\SnakeWithTimer.dll
+C:\Programming\ICT\Week5\Snake\obj\Debug\netcoreapp3.1\SnakeWithTimer.pdb
+C:\Programming\ICT\Week5\Snake\obj\Debug\netcoreapp3.1\SnakeWithTimer.genruntimeconfig.cache
+C:\Programming\ICT\Week5\Snake\obj\Debug\netcoreapp3.1\SnakeWithTimer.csprojAssemblyReference.cache
