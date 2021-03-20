@@ -40,7 +40,7 @@ namespace Manager
                 if(count == Position)
                 {
                     Console.BackgroundColor = ConsoleColor.Yellow;
-                    Console.Title = CalculateSize(di.FullName).ToString();
+                    Console.Title = "Chosen directory size: " + CalculateSize(di.FullName).ToString() + " bytes";
                 }
                 else
                 {
@@ -58,7 +58,7 @@ namespace Manager
                 if(count == Position)
                 {
                     Console.BackgroundColor = ConsoleColor.Yellow;
-                    Console.Title = CalculateSize(fi.FullName).ToString();
+                    Console.Title = "Chosen file size: " + CalculateSize(fi.FullName).ToString() + " bytes";
                 }
                 else
                 {
@@ -110,13 +110,15 @@ namespace Manager
             }
         }
 
-        static double CalculateSize(string folder)
+        public static double CalculateSize(string folder)
         {
             double size = 0;
             
             if (!Directory.Exists(folder))
             {
-                return -1;
+                FileInfo fi = new FileInfo(folder);
+                size += fi.Length;
+                return size;
             }
             else
             {

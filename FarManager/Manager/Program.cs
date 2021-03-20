@@ -18,13 +18,20 @@ namespace Manager
 
             while(!exit)
             {
-                if(!shareMode) 
+                try
                 {
-                    history.Peek().PrintInfo();
+                    if (!shareMode)
+                    {
+                        history.Peek().PrintInfo();
+                    }
+                    else
+                    {
+                        history.Peek().PrintContent();
+                    }
                 }
-                else
+                catch(InvalidOperationException)
                 {
-                    history.Peek().PrintContent();
+                    Console.WriteLine("You can't go beyond!");
                 }
                 keyInfo = Console.ReadKey(true);
 
@@ -35,7 +42,7 @@ namespace Manager
                         {
                             history.Push(new Layer(history.Peek().GetCurrentObject() as DirectoryInfo, 0));
                         }
-                        else if(history.Peek().GetCurrentObject().GetType() == typeof(FileInfo))
+                        else if (history.Peek().GetCurrentObject().GetType() == typeof(FileInfo))
                         {
                             history.Push(new Layer(history.Peek().GetCurrentObject() as FileInfo));
                             shareMode = true;
