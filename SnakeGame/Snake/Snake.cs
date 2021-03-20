@@ -49,7 +49,12 @@ namespace SnakeSpace
 
         public void Save(string fileName)
         {
-            using(FileStream fs = new FileStream(fileName + ".xml", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+            string path = @"C:\Programming\ICT\SnakeGame\Snake\bin\Debug\netcoreapp3.1\" + fileName + ".xml";
+            if(File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            using(FileStream fs = new FileStream(fileName + ".xml", FileMode.OpenOrCreate, FileAccess.Write))
             {
                 XmlSerializer xs = new XmlSerializer(typeof(Snake));
                 xs.Serialize(fs, this);

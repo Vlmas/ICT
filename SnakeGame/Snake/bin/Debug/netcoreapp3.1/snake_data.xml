@@ -4,26 +4,14 @@
   <color>Green</color>
   <body>
     <Point>
-      <X>54</X>
-      <Y>24</Y>
-    </Point>
-    <Point>
-      <X>54</X>
-      <Y>23</Y>
-    </Point>
-    <Point>
-      <X>54</X>
-      <Y>22</Y>
-    </Point>
-    <Point>
-      <X>54</X>
-      <Y>21</Y>
+      <X>32</X>
+      <Y>12</Y>
     </Point>
   </body>
   <locker />
   <head>
-    <X>54</X>
-    <Y>24</Y>
+    <X>41</X>
+    <Y>15</Y>
   </head>
   <Dx>0</Dx>
   <Dy>1</Dy>
