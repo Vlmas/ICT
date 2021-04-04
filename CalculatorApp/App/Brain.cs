@@ -113,6 +113,7 @@ namespace App
             }
             catch(IndexOutOfRangeException) { }   
             catch(Exception) { }
+
             display(currentNumber);
         }
 
