@@ -1,0 +1,10 @@
+C:\Programming\ICT\CalculatorApp\App\bin\Debug\Example2.exe.config
+C:\Programming\ICT\CalculatorApp\App\bin\Debug\Example2.exe
+C:\Programming\ICT\CalculatorApp\App\bin\Debug\Example2.pdb
+C:\Programming\ICT\CalculatorApp\App\obj\Debug\App.csprojAssemblyReference.cache
+C:\Programming\ICT\CalculatorApp\App\obj\Debug\Example2.Properties.Resources.resources
+C:\Programming\ICT\CalculatorApp\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Programming\ICT\CalculatorApp\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Programming\ICT\CalculatorApp\App\obj\Debug\Example2.exe
+C:\Programming\ICT\CalculatorApp\App\obj\Debug\Example2.pdb
+C:\Programming\ICT\CalculatorApp\App\obj\Debug\App.FormApp.resources
