@@ -1,0 +1,13 @@
+C:\Programming\ICT\Week1\TestingPrinciples\bin\Debug\netcoreapp3.1\TestingPrinciples.exe
+C:\Programming\ICT\Week1\TestingPrinciples\bin\Debug\netcoreapp3.1\TestingPrinciples.deps.json
+C:\Programming\ICT\Week1\TestingPrinciples\bin\Debug\netcoreapp3.1\TestingPrinciples.runtimeconfig.json
+C:\Programming\ICT\Week1\TestingPrinciples\bin\Debug\netcoreapp3.1\TestingPrinciples.runtimeconfig.dev.json
+C:\Programming\ICT\Week1\TestingPrinciples\bin\Debug\netcoreapp3.1\TestingPrinciples.dll
+C:\Programming\ICT\Week1\TestingPrinciples\bin\Debug\netcoreapp3.1\TestingPrinciples.pdb
+C:\Programming\ICT\Week1\TestingPrinciples\obj\Debug\netcoreapp3.1\TestingPrinciples.csprojAssemblyReference.cache
+C:\Programming\ICT\Week1\TestingPrinciples\obj\Debug\netcoreapp3.1\TestingPrinciples.AssemblyInfoInputs.cache
+C:\Programming\ICT\Week1\TestingPrinciples\obj\Debug\netcoreapp3.1\TestingPrinciples.AssemblyInfo.cs
+C:\Programming\ICT\Week1\TestingPrinciples\obj\Debug\netcoreapp3.1\TestingPrinciples.csproj.CoreCompileInputs.cache
+C:\Programming\ICT\Week1\TestingPrinciples\obj\Debug\netcoreapp3.1\TestingPrinciples.dll
+C:\Programming\ICT\Week1\TestingPrinciples\obj\Debug\netcoreapp3.1\TestingPrinciples.pdb
+C:\Programming\ICT\Week1\TestingPrinciples\obj\Debug\netcoreapp3.1\TestingPrinciples.genruntimeconfig.cache
