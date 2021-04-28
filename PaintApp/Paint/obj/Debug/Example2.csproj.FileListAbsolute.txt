@@ -1,0 +1,10 @@
+C:\Programming\ICT\Week10\Example2\bin\Debug\Example2.exe.config
+C:\Programming\ICT\Week10\Example2\bin\Debug\Example2.exe
+C:\Programming\ICT\Week10\Example2\bin\Debug\Example2.pdb
+C:\Programming\ICT\Week10\Example2\obj\Debug\Example2.Form1.resources
+C:\Programming\ICT\Week10\Example2\obj\Debug\Example2.Properties.Resources.resources
+C:\Programming\ICT\Week10\Example2\obj\Debug\Example2.csproj.GenerateResource.cache
+C:\Programming\ICT\Week10\Example2\obj\Debug\Example2.csproj.CoreCompileInputs.cache
+C:\Programming\ICT\Week10\Example2\obj\Debug\Example2.exe
+C:\Programming\ICT\Week10\Example2\obj\Debug\Example2.pdb
+C:\Programming\ICT\Week10\Example2\obj\Debug\Example2.csprojAssemblyReference.cache
