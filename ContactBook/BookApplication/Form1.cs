@@ -30,6 +30,7 @@ namespace BookApplication
         public void InitComboBox()
         {
             comboBox1.Items.AddRange(new string[] { "Name", "Phone", "Address" });
+            comboBox1.SelectedItem = "Name";
         }
 
         private void LoadContacts()
@@ -46,14 +47,14 @@ namespace BookApplication
 
         public void RefreshPage()
         {
-            toolStripStatusLabel1.Text = bll.GetContacts(pageSize, offset).Count.ToString();
-            bindingSource1.DataSource = bll.GetContacts(pageSize, offset);
+            toolStripStatusLabel1.Text = bll.GetContacts(pageSize, offset, comboBox1.SelectedItem.ToString(), textBox1.Text).Count.ToString();
+            bindingSource1.DataSource = bll.GetContacts(pageSize, offset, comboBox1.SelectedItem.ToString(), textBox1.Text);
         }
 
         private void Refresh(object sender, EventArgs e)
         {
-            toolStripStatusLabel1.Text = bll.GetContacts(pageSize, offset).Count.ToString();
-            bindingSource1.DataSource = bll.GetContacts(pageSize, offset);
+            toolStripStatusLabel1.Text = bll.GetContacts(pageSize, offset, comboBox1.SelectedItem.ToString(), textBox1.Text).Count.ToString();
+            bindingSource1.DataSource = bll.GetContacts(pageSize, offset, comboBox1.SelectedItem.ToString(), textBox1.Text);
         }
 
         private void AddContact(object sender, EventArgs e)
@@ -119,6 +120,16 @@ namespace BookApplication
             };
             ContactDetail detail = new ContactDetail(contact);
             detail.Show();
+        }
+
+        private void PatternChanged(object sender, EventArgs e)
+        {
+            RefreshPage();
+        }
+
+        private void Go(object sender, EventArgs e)
+        {
+            RefreshPage();
         }
     }
 }

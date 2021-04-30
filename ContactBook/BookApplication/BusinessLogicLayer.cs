@@ -42,9 +42,9 @@ namespace BookApplication
             return dal.GetAllContacts();
         }
 
-        public List<ContactDTO> GetContacts(int pageSize, int offset)
+        public List<ContactDTO> GetContacts(int pageSize, int offset, string orderBy, string searchPattern)
         {
-            return dal.GetContacts(pageSize, offset);
+            return dal.GetContacts(pageSize, offset, orderBy, searchPattern);
         }
 
         public bool UpdateContact(ContactDTO contact)

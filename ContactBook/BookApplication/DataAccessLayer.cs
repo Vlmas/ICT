@@ -18,6 +18,6 @@ namespace BookApplication
 
         bool UpdateContact(ContactDTO contact);
 
-        List<ContactDTO> GetContacts(int pageSize, int offset);
+        List<ContactDTO> GetContacts(int pageSize, int offset, string orderBy, string searchPattern);
     }
 }

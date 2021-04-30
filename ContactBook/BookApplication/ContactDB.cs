@@ -93,11 +93,19 @@ namespace BookApplication
             return true;
         }
         
-        public List<ContactDTO> GetContacts(int pageSize, int offset)
+        public List<ContactDTO> GetContacts(int pageSize, int offset, string orderBy, string searchPattern)
         {
             List<ContactDTO> res = new List<ContactDTO>();
+            string selectSql;
 
-            string selectSql = string.Format("SELECT * FROM contacts ORDER BY name LIMIT {0} OFFSET {1};", pageSize, offset);
+            if (searchPattern.Trim().Equals(""))
+            {
+                selectSql = string.Format("SELECT * FROM contacts ORDER BY {0} LIMIT {1} OFFSET {2};", orderBy.ToLower(), pageSize, offset);
+            }
+            else
+            {
+                selectSql = string.Format("SELECT * FROM contacts WHERE name LIKE '%{0}%' ORDER BY {1} LIMIT {2} OFFSET {3};", searchPattern, orderBy.ToLower(), pageSize, offset);
+            }
             using (SQLiteCommand command = new SQLiteCommand(selectSql, connection))
             {
                 var reader = command.ExecuteReader();
